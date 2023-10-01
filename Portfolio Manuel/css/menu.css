@@ -1,0 +1,45 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .menu::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-open{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .menu-open::before{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(45deg) translatex(11px) translateY(1px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .menu-open::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(-45deg) translateX(9px);
+    transition: all 0.3s ease-in-out;
+  }

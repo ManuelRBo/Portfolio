@@ -1,0 +1,37 @@
+.seccion-manuel{
+    color: white;
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+}
+
+.seccion-manuel h1{
+    font-size: 80px;
+    padding: 0;
+    text-transform: uppercase;
+    position: relative;
+    margin: auto;
+    width: fit-content;
+}
+
+.seccion-manuel .parrafo-superior{
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 60px;
+    top: -30px;
+    font-weight: 100;
+}
+
+.seccion-manuel .parrafo-inferior{
+    width: 180px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    text-transform: uppercase;
+    font-weight: 100;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('css/menu.css');
+@import url('css/seccionManuel.css');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header{
+  width: 90%;
+  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 0 0;
+  position: fixed;
+  left: 50%; /* Centra horizontalmente en el centro de la pantalla */
+  transform: translateX(-50%);
+}
+
