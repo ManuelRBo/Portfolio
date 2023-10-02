@@ -1,0 +1,67 @@
+.seccion-sobreMi{
+    color: white;
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+    height: calc(100vh - 76.24px);
+}
+
+.seccion-sobreMi h1{
+    font-size: 53px;
+    text-transform: uppercase;
+    height: fit-content;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.seccion-sobreMi .primer-parrafo{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.seccion-sobreMi .segundo-parrafo{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+.seccion-sobreMi .boton-descarga-CV{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.seccion-sobreMi .boton-descarga-CV:hover{
+    background: white;
+    color: black;
+    font-weight: 700;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+svg{
+    color: white;
+    width: 20px;
+}
+
+svg-hover{
+    color: black;
+    width: 20px;
+}

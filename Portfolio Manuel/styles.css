@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 @import url('css/menu.css');
 @import url('css/seccionManuel.css');
+@import url('css/sobreMi.css');
 
 *{
   box-sizing: border-box;
@@ -11,8 +12,6 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
-
-
 }
 
 header{
