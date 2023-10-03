@@ -3,12 +3,12 @@
     width: 90%;
     max-width: 1250px;
     margin: auto;
-    height: calc(100vh - 76.24px);
+    height: calc(100vh - 86.24px);
     margin-bottom: 50px;
 }
 
 .seccion-sobreMi h1{
-    font-size: 53px;
+    font-size: 5.3rem;
     text-transform: uppercase;
     height: fit-content;
     margin: 0;
