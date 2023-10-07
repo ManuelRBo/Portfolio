@@ -3,6 +3,7 @@
 @import url('css/seccionManuel.css');
 @import url('css/sobreMi.css');
 @import url('css/seccionExp.css');
+@import url('css/seccionProyectos.css');
 
 *{
   box-sizing: border-box;
@@ -13,7 +14,6 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
-    font-size: 62.5%;
 }
 
 header{
