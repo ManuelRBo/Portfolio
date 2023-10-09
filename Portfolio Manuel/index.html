@@ -9,8 +9,10 @@
   </head>
   <body>
     <header>
-      <img src="/VectorLogo.svg" alt="Logo MR" width="60px" />
-      <div class="menu"></div>
+      <div class="contenedor-header">
+        <img src="/VectorLogo.svg" alt="Logo MR" width="60px" />
+        <div class="menu"></div>
+      </div>
     </header>
     <main class="contenido-principal">
       <section class="seccion-manuel">
@@ -23,25 +25,33 @@
 
       <section class="seccion-sobreMi">
         <h2>About me</h2>
-          <p class="primer-parrafo">
-            Soy un chico joven comenzando en el mundo de la programación y
-            diseño web. Aunque no tengo experiencia laboral en el sector, si que
-            he intentado crear muchos proyectos por mi cuenta para aumentar mis
-            habilidades y creatividad y a la vez convertirme en un gran
-            profesional de este sector por lo que algo de experiencia he ido
-            acumulando.
-          </p>
-          <p class="segundo-parrafo">
-            Siempre estoy dispuesto a dar todo de mi y hacer todo lo necesario
-            para sacar una idea adelante o un proyecto, ya que ver que otras
-            personas les gusta lo que haces es un privilegio.
-          </p>
+        <p class="primer-parrafo">
+          Soy un chico joven comenzando en el mundo de la programación y diseño
+          web. Aunque no tengo experiencia laboral en el sector, si que he
+          intentado crear muchos proyectos por mi cuenta para aumentar mis
+          habilidades y creatividad y a la vez convertirme en un gran
+          profesional de este sector por lo que algo de experiencia he ido
+          acumulando.
+        </p>
+        <p class="segundo-parrafo">
+          Siempre estoy dispuesto a dar todo de mi y hacer todo lo necesario
+          para sacar una idea adelante o un proyecto, ya que ver que otras
+          personas les gusta lo que haces es un privilegio.
+        </p>
 
         <button class="boton-descarga-CV">
           CV
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-            <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z" />
-            <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"
+            />
+            <path
+              d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"
+            />
           </svg>
         </button>
       </section>
@@ -49,11 +59,10 @@
       <section class="seccion-exp">
         <h2>Experiencia en Lenguajes y Frameworks</h2>
         <div class="contenedor-experiencia">
-
           <div class="conjunto-experiencia">
             <div class="imagen-texto">
               <div class="parte-izquierda">
-                <img src="/logohtml.png" alt="Logo HTML" class="logo">
+                <img src="/logohtml.png" alt="Logo HTML" class="logo" />
                 <p class="años">2 años</p>
               </div>
               <p class="porcentaje">95%</p>
@@ -66,7 +75,7 @@
           <div class="conjunto-experiencia">
             <div class="imagen-texto">
               <div class="parte-izquierda">
-                <img src="/logocss.png" alt="Logo HTML" class="logo">
+                <img src="/logocss.png" alt="Logo HTML" class="logo" />
                 <p class="años">2 años</p>
               </div>
               <p class="porcentaje">90%</p>
@@ -79,7 +88,7 @@
           <div class="conjunto-experiencia">
             <div class="imagen-texto">
               <div class="parte-izquierda">
-                <img src="/logojs.png" alt="Logo HTML" class="logo js">
+                <img src="/logojs.png" alt="Logo HTML" class="logo js" />
                 <p class="años">1 año</p>
               </div>
               <p class="porcentaje">70%</p>
@@ -95,7 +104,7 @@
         <h2>Proyectos</h2>
         <div class="contenedor-proyectos">
           <div class="contenedor-p">
-            <img src="/tresenraya.png" alt="">
+            <img src="/tresenraya.png" alt="" />
             <div class="texto-des">
               <h6 class="titulo-proyecto">Tres en raya</h6>
               <p class="lenguajes-utilizados">HTML, CSS, JS</p>
@@ -104,19 +113,78 @@
         </div>
 
         <div class="vermas">
-            <p class="texto">View More</p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M5 12l14 0"></path>
-              <path d="M13 18l6 -6"></path>
-              <path d="M13 6l6 6"></path>
-             </svg>
+          <p class="texto">View More</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-arrow-right"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 12l14 0"></path>
+            <path d="M13 18l6 -6"></path>
+            <path d="M13 6l6 6"></path>
+          </svg>
         </div>
       </section>
 
+      <section class="seccion-contacto">
+        <h2>Hablemos de tu proyecto</h2>
+        <div class="contenedor-texto-form">
+          <div class="texto-contacto">
+            <p>
+              Estoy emocionado por la posibilidad de trabajar contigo y llevar
+              tu visión al siguiente nivel. Por favor, tómate un momento para
+              completar este formulario y proporcionarme algunos detalles sobre
+              tu proyecto. Esto me ayudará a entender mejor tus necesidades y a
+              prepararme para nuestra futura conversación.
+            </p>
+            <p>
+              No dudes en ser lo más detallado posible. Cuanta más información
+              me proporciones, mejor podré entender tus objetivos y ofrecerte
+              una solución adaptada a tus necesidades.
+            </p>
+            <p>Una vez que hayas enviado el formulario, me pondré en contacto contigo en breve para discutir los próximos pasos.</p>
+            <p>¡Estoy ansioso por conocer más sobre tu proyecto y trabajar juntos para hacerlo realidad!</p>
+            <p>Gracias por considerarme como tu socio creativo.
+              Atentamente,<br>
+              Manuel</p>
+          </div>
+          <div class="contenedor-formulario">
+            <form class="formulario">
+              <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Manuel">
+              </div>
 
-      <section>
+              <div class="campo">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Rodrigo">
+              </div>
 
+              <div class="campo">
+                <label for="email">Email de contacto</label>
+                <input type="email" id="email" name="email" placeholder="manuel@gmail.com">
+              </div>
+
+              <div class="campo">
+                <label for="telefono">Telefono Contacto</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="635351656">
+              </div>
+
+              <div class="campo">
+                <label for="detalles">Detalles del proyecto</label>
+                <textarea name="detalles" id="detalles"></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
   </body>

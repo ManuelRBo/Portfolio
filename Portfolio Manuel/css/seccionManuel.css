@@ -5,6 +5,7 @@
     margin: auto;
     height: 100vh;
     display: grid;
+    z-index: 1;
 }
 
 .seccion-manuel h1{

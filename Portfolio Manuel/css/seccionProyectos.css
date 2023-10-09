@@ -1,5 +1,7 @@
 .seccion-proyectos{ 
     color: white;
+    display: grid;
+    place-items: center;
     width: 90%;
     max-width: 1250px;
     margin: auto;
@@ -9,13 +11,13 @@
 .seccion-proyectos h2{
     text-align: center;
     font-size: 53px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .contenedor-proyectos{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 70px;
     width: 90%;
     margin: auto;
 }
@@ -77,11 +79,13 @@
 
 .vermas svg{
     width: 0%;
+    position: relative;
+    top: 2px;
     transition: all 0.5s ease;
 }
 
 .texto:hover + svg{
-    width: 7%;
+    width: 15%;
     animation: aparecer 0.5s ease;
 }
 
