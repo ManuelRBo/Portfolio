@@ -1,11 +1,8 @@
 .seccion-proyectos{ 
     color: white;
-    display: grid;
-    place-items: center;
     width: 90%;
     max-width: 1250px;
     margin: auto;
-    height: calc(100vh - 96.24px);
 }
 
 .seccion-proyectos h2{

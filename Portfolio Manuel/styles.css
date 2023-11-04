@@ -5,6 +5,7 @@
 @import url('css/seccionExp.css');
 @import url('css/seccionProyectos.css');
 @import url('css/seccionContacto.css');
+@import url('css/menuDesplegable.css');
 
 *{
   box-sizing: border-box;
