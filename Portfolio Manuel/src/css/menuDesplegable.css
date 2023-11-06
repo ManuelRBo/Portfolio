@@ -1,0 +1,88 @@
+.menu-desplegable{
+    opacity: 0;
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(47, 0, 54), rgb(41, 0, 47), rgb(26, 0, 30) 100%, rgb(19, 0, 22) 90%, rgb(0, 0, 0));
+    position: fixed;
+    z-index: 3;
+    top: 0;
+}
+
+.cerrar-animacion{
+    animation: cerrarMenu 0.5s ease-in-out;
+}
+
+@keyframes menu {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes cerrarMenu {
+    0% {
+        transform: translateY(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+.menu-desplegable-open{
+    opacity: 1;
+    visibility: visible;
+    animation: menu 0.5s ease-in-out;
+    top: 0;
+
+}
+
+.enlaces-menu{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.enlaces-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.enlaces-menu a::before {
+    content: "";
+    margin: auto;
+    display: block;
+    position: relative;
+    bottom: -70px;
+    height: 4px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.enlaces-menu a:hover::before {
+    width: 100%;
+    margin: auto;
+}
+
+.enlaces-menu a:hover{
+    color: rgb(218, 217, 217);
+}

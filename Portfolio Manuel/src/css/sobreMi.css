@@ -3,12 +3,11 @@
     width: 90%;
     max-width: 1250px;
     margin: auto;
-    height: calc(100vh - 86.24px);
-    margin-bottom: 50px;
+    scroll-margin-top: 110px;
 }
 
 .seccion-sobreMi h2{
-    font-size: 53px;
+    font-size: 5.3rem;
     text-transform: uppercase;
     height: fit-content;
     margin: 0;
@@ -17,21 +16,20 @@
 }
 
 .seccion-sobreMi .primer-parrafo{
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 3px;
-    line-height: 25px;
+    line-height: 23px;
     margin-top: 0;
-
     text-align: center;
     font-weight: 300;
 }
 
 .seccion-sobreMi .segundo-parrafo{
-    font-size: 18px;
+    font-size: 1.8rem;
     letter-spacing: 3px;
     text-align: center;
     font-weight: 300;
-    line-height: 25px;
+    line-height: 23px;
 }
 
 .seccion-sobreMi .boton-descarga-CV{
@@ -45,14 +43,22 @@
     margin: auto;
     margin-top: 30px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
-.seccion-sobreMi .boton-descarga-CV:hover{
+.boton-descarga-CV:hover{
     background: white;
     color: black;
     font-weight: 700;
     transform: scale(1.1);
-    transition: transform 0.3s ease;
+    transition: transform .5s ease-out;
+}
+
+.boton-descarga-CV:hover svg{
+    color: black;
+    font-weight: 700;
+    transform: scale(1.1);
+    transition: transform .5s ease-out;
 }
 
 svg{
