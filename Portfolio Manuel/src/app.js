@@ -2,6 +2,8 @@ const menu = document.getElementById('menu');
 const menuDesplegable = document.getElementById('menu-desplegable');
 const menuDesplegableItems = document.querySelectorAll('.menu-desplegable a');
 const header = document.querySelector('header');
+const contenedorProyectos = document.querySelector('.contenedor-p');
+const imgHover = document.querySelectorAll('.img-hover');
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('menu-open');
@@ -13,10 +15,11 @@ menu.addEventListener('click', () => {
 });
 
 menuDesplegableItems.forEach((item) => {
-    item.addEventListener('click', () => {
-        menu.classList.remove('menu-open');
-        menuDesplegable.classList.remove('menu-desplegable-open');
-    });
+  item.addEventListener('click', () => {
+    menu.classList.remove('menu-open');
+    menuDesplegable.classList.remove('menu-desplegable-open');
+  });
 });
+
 
 

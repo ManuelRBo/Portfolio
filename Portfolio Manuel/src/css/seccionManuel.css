@@ -3,7 +3,7 @@
     width: 90%;
     max-width: 1250px;
     margin: auto;
-    height: calc(100vh - 80px);
+    height: 100vh;
     display: grid;
     z-index: 1;
     scroll-snap-align: start;
