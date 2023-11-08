@@ -3,7 +3,6 @@ const menuDesplegable = document.getElementById('menu-desplegable');
 const menuDesplegableItems = document.querySelectorAll('.menu-desplegable a');
 const header = document.querySelector('header');
 const contenedorProyectos = document.querySelector('.contenedor-p');
-const imgHover = document.querySelectorAll('.img-hover');
 
 menu.addEventListener('click', () => {
   menu.classList.toggle('menu-open');
@@ -21,5 +20,7 @@ menuDesplegableItems.forEach((item) => {
   });
 });
 
-
-
+contenedorProyectos.addEventListener('mouseover', (event) => {
+    const proyecto  = event.target.querySelector('.proyectos-hover')
+    console.log(proyecto)
+ });

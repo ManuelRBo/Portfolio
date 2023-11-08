@@ -56,5 +56,5 @@ header{
 .contenido-secciones{
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 32vh;
 }
