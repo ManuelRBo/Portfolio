@@ -9,8 +9,9 @@
 
 .seccion-exp h2 {
   text-align: center;
-  font-size: 3.2rem;
+  font-size: 5.3rem;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .contenedor-experiencia {
@@ -73,7 +74,8 @@
 
 .seccion-exp .barra-progreso .progreso {
   height: 100%;
-  background: #ff6b6b;
+  /* background: linear-gradient(rgb(165, 0, 190), rgb(0, 0, 0)); */
+  background: rgb(34, 0, 50);
   border-radius: 10px;
   width: 0%;
 }

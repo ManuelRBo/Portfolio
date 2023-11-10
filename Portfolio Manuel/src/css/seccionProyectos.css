@@ -11,7 +11,7 @@
 .seccion-proyectos h2{
     text-align: center;
     font-size: 5.3rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 0;
 }
 
@@ -90,17 +90,6 @@
     animation: aparecer 0.5s ease;
 }
 
-@keyframes aparecer{
-    0%{
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
 .img-hover{
     position: relative;
 }
@@ -115,7 +104,6 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    animation: aparecer 0.5s ease;
 
     & a{
         background-color: black;
@@ -126,31 +114,5 @@
         font-weight: 500;
         text-decoration: none;
         transition: all 0.5s ease;
-    }
-}
-
-@keyframes aparecer{
-    0%{
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-.proyectos-hover-desaparecer{
-    animation: desaparecer 0.5s ease;
-}
-
-@keyframes desaparecer{
-    0%{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-    100%{
-        opacity: 0;
-        transform: translateX(-30px);
     }
 }
