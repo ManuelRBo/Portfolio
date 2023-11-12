@@ -43,3 +43,39 @@
     transform: rotate(-45deg) translateX(11px);
     transition: all 0.3s ease-in-out;
   }
+
+.redes-sociales{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.redes-sociales svg{
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.redes-sociales svg:hover{
+  scale: 1.2;
+}
+
+@media (width >= 768px){
+  .menu::before{
+    width: 60px;
+  }
+
+  .menu::after{
+    width: 60px;
+  }
+
+  .menu-open::before{
+    width: 60px;
+  }
+
+  .menu-open::after{
+    width: 60px;
+  }
+}

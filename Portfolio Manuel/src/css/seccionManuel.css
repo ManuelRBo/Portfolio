@@ -3,7 +3,7 @@
     width: 90%;
     max-width: 1250px;
     margin: auto;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     z-index: 1;
     scroll-snap-align: start;
@@ -24,7 +24,7 @@
     position: absolute;
     left: 60px;
     top: -30px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 5px;
 }
 
@@ -35,6 +35,24 @@
     right: 10px;
     top: 80px;
     text-transform: uppercase;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 5px;
+}
+
+@media (width >= 768px){
+    .seccion-manuel h1{
+        font-size: 12rem;
+    }
+
+    .seccion-manuel .parrafo-superior{
+        font-size: 2.5rem;
+        left: 100px;
+        top: -50px;
+    }
+
+    .seccion-manuel .parrafo-inferior{
+        font-size: 2rem;
+        right: 20px;
+        top: 120px;
+    }
 }

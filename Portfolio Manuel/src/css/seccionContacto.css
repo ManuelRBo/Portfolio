@@ -2,7 +2,9 @@
     color: white;
     width: 90%;
     max-width: 1250px;
+    min-height: 100vh;
     margin: auto;
+    margin-top: 100px;
     scroll-margin-top: 110px;
     scroll-snap-align: start;
 }
@@ -73,4 +75,55 @@
     background-color: rgb(71, 71, 71);
     color: white;
     resize: none;
+}
+
+
+@media (width >= 768px){
+    .seccion-contacto{
+        width: 100%;
+        scroll-margin-top: 80px;
+    }
+
+    .seccion-contacto h2{
+        font-size: 7rem;
+    }
+
+    .seccion-contacto p{
+        font-size: 2.5rem;
+        line-height: 27px;
+    }
+
+    .campo{
+        gap: 10px;
+    }
+
+    .campo label{
+        font-size: 2.2rem;
+    }
+
+    .campo input{
+        height: 50px;
+        font-size: 2rem;
+    }
+
+    .campo textarea{
+        height: 200px;
+        font-size: 2rem;
+    }
+}
+
+@media (width >= 1420px){
+    .seccion-contacto{
+        scroll-margin-top: 70px;
+    }
+    .contenedor-texto-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .contenedor-formulario{
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
 }

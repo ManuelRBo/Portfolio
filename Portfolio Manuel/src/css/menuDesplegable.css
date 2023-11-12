@@ -86,3 +86,13 @@
 .enlaces-menu a:hover{
     color: rgb(218, 217, 217);
 }
+
+@media (width >= 768px){
+    .enlaces-menu a{
+        font-size: 7rem;
+    }
+
+    .enlaces-menu a::before{
+        bottom: -85px;
+    }
+}

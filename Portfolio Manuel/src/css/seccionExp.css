@@ -2,6 +2,7 @@
   color: white;
   width: 90%;
   max-width: 1250px;
+  min-height: 100vh;
   margin: auto;
   scroll-margin-top: 110px;
   scroll-snap-align: start;
@@ -74,8 +75,57 @@
 
 .seccion-exp .barra-progreso .progreso {
   height: 100%;
-  /* background: linear-gradient(rgb(165, 0, 190), rgb(0, 0, 0)); */
-  background: rgb(34, 0, 50);
-  border-radius: 10px;
+  background: rgb(49, 0, 56);
+  border-radius: 8px 10px 10px 8px;
   width: 0%;
+}
+
+@media (width >= 768px){
+  .seccion-exp{
+    width: 100%;
+    scroll-margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-experiencia{
+    margin: 0;
+  }
+
+  .seccion-exp h2{
+    font-size: 7rem;
+  }
+
+  .logo{
+    width: 90px;
+    height: 90px;
+  }
+
+  .js{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+  }
+
+  .seccion-exp .imagen-texto .parte-izquierda .años{
+    font-size: 2.5rem;
+  }
+
+  .seccion-exp .imagen-texto .porcentaje{
+    font-size: 3rem;
+  }
+}
+
+@media (width >= 1420px){
+  .seccion-exp{
+    min-height: 75vh;
+    scroll-margin-top: 90px;
+  }
+
+  .contenedor-experiencia{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+  }
 }

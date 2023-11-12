@@ -30,18 +30,24 @@ header{
   top: 0;
   z-index: 4;
   margin-top: 0;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 }
 
 .contenedor-header{
   width: 90%;
-  max-width: 1250px;
+  max-width: 1600px;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   position: fixed;
   left: 50%; /* Centra horizontalmente en el centro de la pantalla */
   transform: translateX(-50%) translateY(50%); /* Centra verticalmente en el centro de la pantalla */
+}
+
+@media (width >= 768px){
+  .contenedor-header img{
+    width: 70px
+  }
 }
 
 
@@ -57,4 +63,14 @@ header{
   display: flex;
   flex-direction: column;
   gap: 25vh;
+  width: 90%;
+  margin: auto;
+}
+
+@media (width >= 768px){
+  .contenido-secciones{
+    gap: 50px;
+    width: 75%;
+    margin: auto;
+  }
 }
