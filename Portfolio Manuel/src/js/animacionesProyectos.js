@@ -19,9 +19,9 @@ export function animacionesProyectos() {
   });
 
     const tl = gsap.timeline();
-    tl.from(titulo, {scale: 2, duration: 1, opacity:0, ease: "back.out(2)"});
+    tl.from(titulo, {scale: 0, duration: 1, opacity:0, ease: "back.out(2)"});
     tarjetas.forEach((tarjeta) => {
-        tl.from(tarjeta, {opacity: 0, duration: 0.9, scale:2, x: -50, ease: "back.out(1.5)"}, "-=0.5");
+        tl.from(tarjeta, {opacity: 0, duration: 1, scale: 0.5, ease: "back.out(1.5)"}, "-=0.5");
     });
 
     ScrollTrigger.create({
